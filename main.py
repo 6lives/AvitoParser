@@ -94,7 +94,7 @@ class AvitoApp(App):
         if not 's=104' in Url:
             Url += '&s=104'
 
-        token = '2044100299:AAEh3e6UcK1vWenHoDKmUZK8vV5_E_cUkEw'
+        token = 'вставьте свой!'
         bot = telebot.TeleBot(token)
         headers = {
             'accept': '*/*',
